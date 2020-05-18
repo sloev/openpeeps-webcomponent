@@ -1,6 +1,6 @@
 import { html, css,svg, LitElement } from 'lit-element';
 
-import {openpeepsTypes} from './openpeeps'
+import {openpeepsTypes} from './openpeeps/index.js'
 
 export class OpenpeepsWebcomponent extends LitElement {
   static get styles() {
@@ -28,7 +28,7 @@ export class OpenpeepsWebcomponent extends LitElement {
       skinColor: {type:String},
       hairColor: {type: String},
       clothesColorPrimary: {type:String},
-      clothesColorPrimary: {type:String}
+      clothesColorSecondary: {type:String}
 
     };
   }

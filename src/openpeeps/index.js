@@ -1,16 +1,16 @@
-import {poseTypes} from './pose'
-import {faceTypes} from './face'
-import {hairTypes} from './hair'
-import {facialHairTypes} from './facialHair'
-import {accessoryTypes} from './accessory'
-import {hairColorTypes, skinColorTypes} from './colors'
+import {poseTypes} from './pose/index.js'
+import {faceTypes} from './face.js'
+import {hairTypes} from './hair.js'
+import {facialHairTypes} from './facialHair.js'
+import {accessoryTypes} from './accessory.js'
+import {hairColorTypes, skinColorTypes} from './colors.js'
 
 export const openpeepsTypes = {
-    poseTypes: poseTypes,
-    faceTypes: faceTypes,
-    hairTypes: hairTypes,
-    facialHairTypes: facialHairTypes,
-    accessoryTypes: accessoryTypes,
-    hairColorTypes: hairColorTypes,
-    skinColorTypes: skinColorTypes
+    poseTypes,
+    faceTypes,
+    hairTypes,
+    facialHairTypes,
+    accessoryTypes,
+    hairColorTypes,
+    skinColorTypes
 }
