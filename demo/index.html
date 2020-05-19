@@ -14,12 +14,14 @@
   <script type="module">
     import { html, render } from 'lit-html';
     import '../openpeeps-webcomponent.js';
+    import {openpeepsTypes} from '../src/openpeeps/index.js'
 
-    const title = 'Hello owc World!';
     render(
       html`
-        <openpeeps-webcomponent />
-      `,
+  <ul>
+    ${Object.keys(openpeepsTypes.faceTypes).map((key) => html`<li>${key}<openpeeps-webcomponent face="${key}" /></li>`)}
+  </ul>
+`,
       document.querySelector('#demo')
     );
   </script>

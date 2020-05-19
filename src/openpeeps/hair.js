@@ -1,4 +1,4 @@
-import { svg } from "lit-html";
+import { svg } from 'lit-html';
 
 const Afro = svg`
     <g>
@@ -16,9 +16,9 @@ const Afro = svg`
             stroke='none'
         />
     </g>
-`
+`;
 
 export const hairTypes = {
-    afro: Afro,
-    default: Afro
-}
+  afro: Afro,
+  default: Afro,
+};

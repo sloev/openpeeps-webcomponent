@@ -1,4 +1,4 @@
-import { svg } from "lit-html";
+import { svg } from 'lit-html';
 
 const ArmsCrossed = svg`
     <g transform='translate(0 459)'>
@@ -16,7 +16,7 @@ const ArmsCrossed = svg`
             stroke='none'
         />
     </g>
-`
+`;
 
 const BlazerBlackTee = svg`
  <g transform='translate(0 459)'>
@@ -41,10 +41,8 @@ const BlazerBlackTee = svg`
         stroke='none'
     />
 </g>
-`
+`;
 
-
-    
 const ButtonShirt = svg`
 
                 <g transform='translate(0 459)'>
@@ -68,7 +66,7 @@ const ButtonShirt = svg`
                         stroke='none'
                     />
                 </g>
-                `
+                `;
 const Coffee = svg`
 <g transform='translate(0 459)'>
 <path
@@ -98,11 +96,11 @@ const Coffee = svg`
     fill-rule='evenodd'
     stroke='none'
 />
-</g>`
+</g>`;
 
 export const bustTypes = {
-    armsCrossed: ArmsCrossed,
-    blazerBlackTee: BlazerBlackTee,
-    buttonShirt: ButtonShirt,
-    coffee: Coffee
-}
+  armsCrossed: ArmsCrossed,
+  blazerBlackTee: BlazerBlackTee,
+  buttonShirt: ButtonShirt,
+  coffee: Coffee,
+};

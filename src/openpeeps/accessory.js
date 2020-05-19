@@ -1,4 +1,4 @@
-import { svg } from "lit-html";
+import { svg } from 'lit-html';
 
 const GlassRound = svg`
     <g>
@@ -10,9 +10,9 @@ const GlassRound = svg`
             stroke='none'
         />
     </g>
-`
+`;
 
 export const accessoryTypes = {
-    glassRound: GlassRound,
-    default: GlassRound
-}
+  glassRound: GlassRound,
+  default: GlassRound,
+};

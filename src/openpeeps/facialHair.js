@@ -1,6 +1,6 @@
-import { svg } from "lit-html";
+import { svg } from 'lit-html';
 
-const Blank = svg``
+const Blank = svg``;
 const Chin = svg`
 <g>
 			<path
@@ -9,10 +9,10 @@ const Chin = svg`
                 fill='var(--openpeeps-stroke-color,  #000000)'
 				stroke='none'
 			/>
-        </g>`
+        </g>`;
 
 export const facialHairTypes = {
-    chin: Chin,
-    blank: Blank,
-    default: Blank
-}
+  chin: Chin,
+  blank: Blank,
+  default: Blank,
+};
